@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+.imageovar {
+
+  Background: linear-gradient(40deg, #ffffff, #e6eeff, #ccddff, #b3ccff, #99bbff, #80aaff, #6699ff, #3377ff, #0055ff, #0044cc, #003cb3, #003399, #002266, #001a4d, #001133, #00091a, #000000);
+
+  background-size: cover;
+  min-height: calc(110vh - 66px);
+
+
+}
+.imag1{
+  width: 200px;
+  height: 200px;
+  margin-top: 12%;
+  margin-left: 42%;
+  border-radius: 200px;
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .imag1{
+
+    margin-left: 30%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .imag1{
+    margin-left: 37%;
+  }
+}
+
+
+
+.artcl{
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Permanent Marker',
+  cursive;
+  color: #000000;
+}
+.artcl h1{
+  font-size: 49px;
+}
+.artcl p{
+  font-size: 40px;
+}
+.about{
+  text-align: center;
+  font-family: 'Permanent Marker',
+  cursive;
+  margin-top: 30px
+  ;
+
+
+}
+.about h1{
+  font-size: 70px;
+  border-bottom: 7px solid blue;
+  margin-left: 28%;
+  margin-right: 28%;
+  margin-bottom: 30px;
+
+
+}
+.about p{
+  font-size: 40px;
+  letter-spacing: 4px;
+}
+
+.work{
+
+  text-align: center;
+  font-family: 'Permanent Marker',
+  cursive;
+  margin-top: 70px
+
+}
+.work h1{
+  font-size: 70px;
+  border-bottom: 7px solid blue;
+  margin-left: 28%;
+  margin-right: 28%;
+  margin-bottom: 40px;
+
+
+
+}
+.work h2{
+  font-size: 70px;
+
+}
+.html{
+  color: #FF5733;
+  ;
+}
+.css{
+  color: #264de4;
+}
+.js{
+  color: #f0db4f;
+  background-color:#323330;
+}
+.boostrab{
+  color:#563d7c
+}
+.matrului{
+color:#1976d2 ;
+
+
+}
+.react{
+  color:#61DBFB;
+  font-size: 80px;
+}
+.work p{
+  font-size: 40px;
+  letter-spacing: 4px;
+
+
+}
