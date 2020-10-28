@@ -116,11 +116,55 @@ color:#1976d2 ;
 }
 .react{
   color:#61DBFB;
-  font-size: 80px;
+  font-size: 80px; }
+
+.next{
+  width: 100px;
+  height: 100px;
 }
 .work p{
   font-size: 40px;
   letter-spacing: 4px;
 
 
+}
+.coshlmida{
+  text-align: center;
+  font-family: 'Permanent Marker',
+  cursive;
+  margin-top: 30px;
+
+}
+.coshlmida h1{
+  font-size: 70px;
+  border-bottom: 7px solid blue;
+  margin-left: 28%;
+  margin-right: 28%;
+  margin-bottom: 30px;
+
+}
+.coshlmida h2{
+  font-size: 60px;
+}
+
+
+.you{
+  COLOR:#FF0000;
+
+}
+.tewtr{
+  color: #1DA1F2;
+  border-radius: 100px;
+}
+.facbe{
+  color: #4267B2;
+}
+.git{
+  color: #211F1F;
+
+
+}
+.coshlmida a{
+  color: #000;
+  Text-decoration: none;
 }

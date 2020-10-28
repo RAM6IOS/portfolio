@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { Container, Row, Card, Button,Carousel,CarouselItem } from 'react-bootstrap'
 //import Imag from './imag1.jpg'
 import Peg1 from "./peg1"
-import { AiFillHtml5 } from "react-icons/ai";
+import { AiFillHtml5,AiFillYoutube,AiFillTwitterCircle,AiFillFacebook,AiFillGithub } from "react-icons/ai";
 import { DiCss3,DiReact } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
 import { BsFillBootstrapFill } from "react-icons/bs"
@@ -56,7 +56,19 @@ export default function Home() {
      <p>React components for faster and easier web development. Build your own design system, or start with Material Design.</p>
      <h2><DiReact className="react"/> Ract</h2>
      <p>React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. Declarative views make your code more predictable and easier to debug.</p>
+     <h2><img src="next-js.svg" alt="" className='next' /> Next.js</h2>
+     <p>Next.js is an open-source React front-end development web framework that enables functionality such as server-side rendering and generating static websites for React based web applications.</p>
 
+
+
+    </div>
+
+    <div className='coshlmida'>
+    <h1>follow me in social media</h1>
+    <h2><AiFillYoutube className="you"/>youtube</h2>
+    <h2><AiFillTwitterCircle className="tewtr"/>twitter</h2>
+    <h2><AiFillFacebook className='facbe'/>Facebook</h2>
+    <h2><AiFillGithub className="git"/><a href="https://github.com/RAM6IOS">Github</a> </h2>
 
 
     </div>
